@@ -72,7 +72,7 @@
   },
   "auto-changelog": {
     "commitLimit": false,
-    "issueUrl": "https://github.com/atsjj/ember-cli-link-pre/issues/{id}",
+    "issueUrl": "https://github.com/summit-electric-supply/ember-peak-spinner/issues/{id}",
     "package": "package.json",
     "releaseSummary": true,
     "template": "https://gist.githubusercontent.com/atsjj/de6998d6750a8b32778fa3380da24301/raw/66a23990c3324f03aa756e45fed70d46389c7eab/normal.hbs"
