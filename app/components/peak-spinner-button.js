@@ -1,0 +1,1 @@
+export { default } from '@summit-electric-supply/ember-peak-spinner/components/peak-spinner-button';

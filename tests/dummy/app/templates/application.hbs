@@ -1,0 +1,9 @@
+<h2 id="title">Welcome to Ember</h2>
+
+{{outlet}}
+
+<PeakSpinner @debounce="250" as |DecrementButton Input IncrementButton|>
+  <DecrementButton class="dec-class">-</DecrementButton>
+  <Input type="number" step="5" min="0" max="100" value="10" />
+  <IncrementButton class="inc-class">+</IncrementButton>
+</PeakSpinner>
