@@ -48,7 +48,11 @@ export default class PeakSpinnerComponent extends Component {
     yield timeout(this.args.debounce || 0);
 
     if (this.args.onChange) {
-      yield this.args.onChange(this.value);
+      if (typeof this.args.onChange === 'object' && typeof this.args.onChange.linked === 'function') {
+        yield this.args.onChange.linked().perform(this.value);
+      } else {
+        yield this.args.onChange(this.value);
+      }
     }
   }).restartable()) onChange;
 }
