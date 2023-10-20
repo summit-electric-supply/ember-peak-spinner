@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "ember-concurrency": "^1.2.1",
-    "@ember/render-modifiers": "^1.0.2",
+    "@ember/render-modifiers": "^2.1.0",
     "@ember/optional-features": "^2.0.0",
     "@glimmer/component": "^1.0.1",
     "@glimmer/tracking": "^1.0.1",
